@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.container .left, .container .right {
+  width: 45%;
+  padding: 20px;
+}
+.container .left {
+  background-color: #a6ad80;
+}
+.container .right {
+  background-color: #6e7a5b;
+}
+.container .right .button {
+  background-color: #f7eb80;
+  border: 1px solid #6e7a5b;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.container .right .button:hover {
+  background-color: #dcf829;
+}
+
+/*# sourceMappingURL=style.css.map */
